@@ -1,10 +1,11 @@
 //importing local files
-import './App.css';
+
+import JSX from './JSX'
 
 const App =() =>{
   return(
     <div>
-      <h1>Hi</h1>
+      <JSX />
     </div>
   )
 }
