@@ -17,8 +17,10 @@ const JSX = () => {
     const quest = "Why are we importing React and what is the use of importing React?"
     const ans = "React is using JSX which is not a pure JS and browser understands regular JS."
     const ans2 = "So these JSX expressions needs to transpiled into regular js syntax so that browser can understand."
+    const ans3 = "In short if we are using HTML tags inside along with javascript then in react it is called JSX"
     const tag = "If you try to remove react import then you will face an error  "
     const tagans = "---- REACT MUST BE IN SCOPE WHILLE USING JSX-----"
+    
 
    return(
         <>
@@ -27,10 +29,8 @@ const JSX = () => {
             <ol className="answer">
                 <li>{ans}</li>
                 <li>{ans2}</li>    
-           
-            
+                <li>{ans3}</li>            
             <p className="note">{tag} <br /> <br /> {tagans}</p>
-            
             </ol>
         
         </>
