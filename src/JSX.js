@@ -23,14 +23,15 @@ const JSX = () => {
    return(
         <>
             <h3 className="heading"> Welcome to JSX module</h3>
-            <p>{quest}</p>
-            <ol>
+            <p className="question">{`1. ${quest}`}</p>
+            <ol className="answer">
                 <li>{ans}</li>
                 <li>{ans2}</li>    
-            </ol>
+           
             
-            <p>{tag}</p>
-            <p>{tagans}</p>
+            <p className="note">{tag} <br /> <br /> {tagans}</p>
+            
+            </ol>
         
         </>
     )

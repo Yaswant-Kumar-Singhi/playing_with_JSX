@@ -1,10 +1,31 @@
 body{
 padding: 1rem;
+background-color: lightcyan;
 }
 
 .heading{
   color:lightsalmon;
-  border: 1px solid black;
+  text-align: center;
+  border: 1px solid lightpink;
+  border-inline-color: blue;
+  background-color: lightyellow;
   padding: 10px;
+}
 
+.question{
+  color: red;
+  border: 1px solid lightpink;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.answer{
+  color:rgb(243, 8, 172);
+  border: 1px solid lightslategray;
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.note{
+  color : red
 }
